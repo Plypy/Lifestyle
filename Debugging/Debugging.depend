@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1373872493 source:d:\program\lifestyle\debugging\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<queue>
+	<map>
+	<vector>
+	<algorithm>
+	<fstream>
+

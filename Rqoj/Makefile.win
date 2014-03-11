@@ -1,0 +1,30 @@
+# Project: lifestyle
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = Sort_test.o $(RES)
+LINKOBJ  = Sort_test.o $(RES)
+LIBS =  -L"h:/Dev-Cpp/lib"  -g3 
+INCS =  -I"h:/Dev-Cpp/include" 
+CXXINCS =  -I"h:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"h:/Dev-Cpp/include/c++/3.4.2/backward"  -I"h:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"h:/Dev-Cpp/include/c++/3.4.2"  -I"h:/Dev-Cpp/include" 
+BIN  = lifestyle.exe
+CXXFLAGS = $(CXXINCS)   -g3
+CFLAGS = $(INCS)   -g3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before lifestyle.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "lifestyle.exe" $(LIBS)
+
+Sort_test.o: Sort_test.cpp
+	$(CPP) -c Sort_test.cpp -o Sort_test.o $(CXXFLAGS)

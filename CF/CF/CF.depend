@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1373351408 source:d:\program\lifestyle\cf\cf\yandex\a.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<algorithm>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<iomanip>
+	<queue>
+	<cmath>
+
+1373352476 source:d:\program\lifestyle\cf\cf\yandex\b.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<algorithm>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<iomanip>
+	<queue>
+	<cmath>
+
+1373356364 source:d:\program\lifestyle\cf\cf\yandex\c.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<algorithm>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<iomanip>
+	<queue>
+	<cmath>
+
+1373558645 source:d:\program\lifestyle\cf\cf\279d.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<algorithm>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<iomanip>
+	<queue>
+	<cmath>
+

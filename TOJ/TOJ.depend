@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1373393969 source:d:\program\lifestyle\toj\3174.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<algorithm>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<iomanip>
+	<queue>
+	<cmath>
+
