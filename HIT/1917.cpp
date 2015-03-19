@@ -1,5 +1,5 @@
-// 此题是一个标准的2-SAT 问题
-// 解法详见 wc2003 伍昱论文 
+// 麓脣脤芒脢脟脪禄赂枚卤锚脳录碌脛2-SAT 脦脢脤芒
+// 陆芒路篓脧锚录没 wc2003 脦茅锚脜脗脹脦脛
 #include <iostream>
 #include <cstdlib>
 #include <cstdio>
@@ -21,7 +21,7 @@ inline void add(int u, int v) {
     e[++cnt] = v;
     nxt[cnt] = adj[u];
     adj[u] = cnt;
-    
+
     e[++cnt] = u;
     nxt[cnt] = tadj[v];
     tadj[v] = cnt;
@@ -35,12 +35,12 @@ int table[MAXV];
 int n, m;
 void load() {
     n *= 2;
-    
+
     cnt = table[0] = color[0] = 0;
     memset(adj,0,sizeof(adj));
     memset(tadj,0,sizeof(tadj));
     memset(del,0,sizeof(del));
-    
+
     int a, b;
     while (m--) {
         scanf("%d%d", &a, &b);
@@ -68,7 +68,7 @@ void kosaraju(int u) {
 }
 void solve() {
     // use the kosaraju algorithm to compute the strongly connected components and
-    // topsort the graph 
+    // topsort the graph
     for (int i = 1; i <= n; ++i)
         if (!used[i])
             dfs(i);
